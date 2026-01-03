@@ -532,28 +532,128 @@
     </section>
   </div>
 `,
-        '/email-marketing': () => `
-           <div class="animate-fade-in-up container mx-auto">
-            <section class="text-center py-16">
-                <h1 class="text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-600">Engaging Email Marketing</h1>
-                <p class="text-xl text-gray-300 max-w-3xl mx-auto">Build loyalty and drive sales directly to the inbox.</p>
-            </section>
-            <section class="max-w-4xl mx-auto px-4 mb-12" id="ai-email-tool"></section>
-            <section class="py-10">
-                <h2 class="text-3xl font-bold mb-8 text-center text-white">Impactful Email Projects</h2>
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">${projects.email.map(renderProjectCard).join('')}</div>
-            </section>
-            <section class="py-10 text-center">
-                <a href="https://www.fiverr.com/s/XL8E0x0" target="_blank" class="inline-flex items-center bg-gradient-to-r from-blue-400 to-indigo-600 text-white font-bold py-3 px-8 rounded-full hover:from-blue-500 hover:to-indigo-700 transition-all shadow-lg shadow-blue-500/50 transform hover:scale-105">
-                    <i data-lucide="store" class="w-5 h-5 mr-2"></i> Order Email Service on Fiverr
-                </a>
-            </section>
-            <section class="py-20 overflow-x-hidden">
-                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-white text-center">Email Marketing Testimonials</h2>
-                ${renderReviewSection(emailReviews)}
-            </section>
-          </div>
-        `
+       '/email-marketing': () => `
+  <div class="animate-fade-in-up container mx-auto px-4">
+    <!-- Hero Section -->
+    <section class="text-center py-16">
+        <h1 class="text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-600">Engaging Email Marketing</h1>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">Hyper-personalized messages that land in the inbox, not the spam folder. Build loyalty and drive sales on autopilot.</p>
+    </section>
+
+    <!-- AI Tool Section -->
+    <section class="max-w-4xl mx-auto px-4 mb-12" id="ai-email-tool"></section>
+
+    <!-- Targeted Solutions Section -->
+    <section class="py-12">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-2">
+                <a href="https://freelancingvibes.online/Email%20Marketing/index.html" class="hover:underline">Targeted Outreach Solutions</a>
+            </h2>
+            <p class="text-gray-400">Select your industry to see how we solve your specific deliverability and conversion challenges.</p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- 1. SaaS Companies -->
+            <div class="bg-gray-800/40 p-6 rounded-2xl border border-gray-700 hover:border-blue-500 transition-all flex flex-col justify-between text-left">
+                <div>
+                    <span class="text-blue-400 text-xs font-bold uppercase tracking-widest text-left">User Retention</span>
+                    <h3 class="text-xl font-bold text-white mt-1 mb-3 text-left">SaaS Companies</h3>
+                    <p class="text-gray-400 text-sm mb-4 text-left">Trial-to-paid conversion flows and automated user onboarding sequences.</p>
+                </div>
+                <a href="https://freelancingvibes.online/Email%20Marketing/for-saas.html" class="w-full py-2 px-4 bg-blue-600/20 hover:bg-blue-600 text-blue-400 hover:text-white border border-blue-600/50 rounded-lg text-center font-bold transition-all">Explore SaaS Outreach</a>
+            </div>
+
+            <!-- 2. Real Estate -->
+            <div class="bg-gray-800/40 p-6 rounded-2xl border border-gray-700 hover:border-indigo-500 transition-all flex flex-col justify-between text-left">
+                <div>
+                    <span class="text-indigo-400 text-xs font-bold uppercase tracking-widest text-left">Lead Nurturing</span>
+                    <h3 class="text-xl font-bold text-white mt-1 mb-3 text-left">Real Estate</h3>
+                    <p class="text-gray-400 text-sm mb-4 text-left">Automated property alerts and long-term buyer warming funnels.</p>
+                </div>
+                <a href="https://freelancingvibes.online/Email%20Marketing/for-real-estate.html" class="w-full py-2 px-4 bg-indigo-600/20 hover:bg-indigo-600 text-indigo-400 hover:text-white border border-indigo-600/50 rounded-lg text-center font-bold transition-all">Explore Real Estate</a>
+            </div>
+
+            <!-- 3. Digital Agencies -->
+            <div class="bg-gray-800/40 p-6 rounded-2xl border border-gray-700 hover:border-cyan-500 transition-all flex flex-col justify-between text-left">
+                <div>
+                    <span class="text-cyan-400 text-xs font-bold uppercase tracking-widest text-left">High Ticket</span>
+                    <h3 class="text-xl font-bold text-white mt-1 mb-3 text-left">Digital Agencies</h3>
+                    <p class="text-gray-400 text-sm mb-4 text-left">Cold outreach systems to book predictable meetings with high-paying clients.</p>
+                </div>
+                <a href="https://freelancingvibes.online/Email%20Marketing/for-agencies.html" class="w-full py-2 px-4 bg-cyan-600/20 hover:bg-cyan-600 text-cyan-400 hover:text-white border border-cyan-600/50 rounded-lg text-center font-bold transition-all">Scale Your Agency</a>
+            </div>
+
+            <!-- 4. Consulting & B2B -->
+            <div class="bg-gray-800/40 p-6 rounded-2xl border border-gray-700 hover:border-purple-500 transition-all flex flex-col justify-between text-left">
+                <div>
+                    <span class="text-purple-400 text-xs font-bold uppercase tracking-widest text-left text-left">Authority Building</span>
+                    <h3 class="text-xl font-bold text-white mt-1 mb-3 text-left text-left">Consulting & B2B</h3>
+                    <p class="text-gray-400 text-sm mb-4 text-left">Thought-leadership newsletters and LinkedIn-to-Email lead funnels.</p>
+                </div>
+                <a href="https://freelancingvibes.online/Email%20Marketing/for-consulting.html" class="w-full py-2 px-4 bg-purple-600/20 hover:bg-purple-600 text-purple-400 hover:text-white border border-purple-600/50 rounded-lg text-center font-bold transition-all">View Consulting AI</a>
+            </div>
+
+            <!-- 5. E-commerce -->
+            <div class="bg-gray-800/40 p-6 rounded-2xl border border-gray-700 hover:border-pink-500 transition-all flex flex-col justify-between text-left">
+                <div>
+                    <span class="text-pink-400 text-xs font-bold uppercase tracking-widest text-left">Recover Sales</span>
+                    <h3 class="text-xl font-bold text-white mt-1 mb-3 text-left">E-commerce Sales</h3>
+                    <p class="text-gray-400 text-sm mb-4 text-left">Abandoned cart recovery and VIP customer loyalty automation flows.</p>
+                </div>
+                <a href="https://freelancingvibes.online/Email%20Marketing/for-ecommerce.html" class="w-full py-2 px-4 bg-pink-600/20 hover:bg-pink-600 text-pink-400 hover:text-white border border-pink-600/50 rounded-lg text-center font-bold transition-all">Boost E-com Sales</a>
+            </div>
+
+            <!-- 6. Local Services -->
+            <div class="bg-gray-800/40 p-6 rounded-2xl border border-gray-700 hover:border-teal-500 transition-all flex flex-col justify-between text-left">
+                <div>
+                    <span class="text-teal-400 text-xs font-bold uppercase tracking-widest text-left">Repeat Business</span>
+                    <h3 class="text-xl font-bold text-white mt-1 mb-3 text-left">Local Services</h3>
+                    <p class="text-gray-400 text-sm mb-4 text-left">Automated review generation and re-booking reminders for local clients.</p>
+                </div>
+                <a href="https://freelancingvibes.online/Email%20Marketing/for-local-services.html" class="w-full py-2 px-4 bg-teal-600/20 hover:bg-teal-600 text-teal-400 hover:text-white border border-teal-600/50 rounded-lg text-center font-bold transition-all">Explore Local AI</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proven Projects -->
+    <section class="py-10">
+        <h2 class="text-3xl font-bold mb-8 text-center text-white">Impactful Email Projects</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">${projects.email.map(renderProjectCard).join('')}</div>
+    </section>
+
+    <!-- Fiverr CTA -->
+    <section class="py-10 text-center">
+        <a href="https://www.fiverr.com/s/XL8E0x0" target="_blank" class="inline-flex items-center bg-gradient-to-r from-blue-400 to-indigo-600 text-white font-bold py-3 px-8 rounded-full hover:from-blue-500 hover:to-indigo-700 transition-all shadow-lg transform hover:scale-105">
+            <i data-lucide="store" class="w-5 h-5 mr-2"></i> Order Email Service on Fiverr
+        </a>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 overflow-x-hidden">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-white text-center">Email Marketing Success Stories</h2>
+        ${renderReviewSection(emailReviews)}
+    </section>
+
+    <!-- Strategy Audit Form -->
+    <section id="audit-form" class="py-16 max-w-4xl mx-auto">
+        <div class="bg-gray-900 border border-gray-800 p-8 rounded-3xl shadow-2xl">
+            <h2 class="text-3xl font-bold mb-4 text-center text-white text-left">Request a Free Email Strategy Audit</h2>
+            <p class="text-gray-400 text-center mb-10 text-left">Is your open rate low? We will audit your deliverability and provide a custom automation roadmap — completely free.</p>
+            <form class="grid md:grid-cols-2 gap-4 text-left">
+                <input type="text" placeholder="Full Name" class="bg-gray-800 border-none text-white p-4 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none text-left">
+                <input type="email" placeholder="Business Email" class="bg-gray-800 border-none text-white p-4 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none text-left">
+                <select class="md:col-span-2 bg-gray-800 border-none text-white p-4 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none text-left">
+                    <option>Select Your Primary Goal</option>
+                    <option>Cold Outreach (Book Meetings)</option><option>SaaS Retention</option>
+                    <option>E-commerce Recovery</option><option>B2B Newsletters</option><option>Local Re-engagement</option>
+                </select>
+                <textarea placeholder="Tell us about your current email list size and your biggest challenge" class="md:col-span-2 bg-gray-800 border-none text-white p-4 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none h-32 text-left"></textarea>
+                <button class="md:col-span-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-bold py-4 rounded-xl hover:opacity-90 transition-all shadow-lg shadow-blue-500/20">Analyze My Inbox Performance</button>
+            </form>
+        </div>
+    </section>
+  </div>
+`,
       };
 
       // --- AI TOOLS LOGIC ---
