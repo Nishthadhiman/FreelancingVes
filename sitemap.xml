@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Home Page -->
+  <url>
+    <loc>https://freelancingvibes.online/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Email Marketing Folder -->
+  <url><loc>https://freelancingvibes.online/Email%20Marketing/index.html</loc><priority>0.80</priority></url>
+  <url><loc>https://freelancingvibes.online/Email%20Marketing/for-agencies.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/Email%20Marketing/for-consulting.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/Email%20Marketing/for-ecommerce.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/Email%20Marketing/for-local-services.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/Email%20Marketing/for-real-estate.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/Email%20Marketing/for-saas.html</loc><priority>0.70</priority></url>
+
+  <!-- SEO Folder -->
+  <url><loc>https://freelancingvibes.online/SEO/index.html</loc><priority>0.80</priority></url>
+  <url><loc>https://freelancingvibes.online/SEO/for-doctors-and-clinics.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/SEO/for-ecommerce-stores.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/SEO/for-education-and-schools.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/SEO/for-law-firms.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/SEO/for-saas-startups.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/SEO/real-estate.html</loc><priority>0.70</priority></url>
+
+  <!-- Ads Folder -->
+  <url><loc>https://freelancingvibes.online/ads/index.html</loc><priority>0.80</priority></url>
+  <url><loc>https://freelancingvibes.online/ads/for-clinics.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/ads/for-coaches.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/ads/for-ecommerce.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/ads/for-gyms.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/ads/for-real-estate.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/ads/for-solar.html</loc><priority>0.70</priority></url>
+
+  <!-- SEO Guides Folder -->
+  <url><loc>https://freelancingvibes.online/seo-guides/index.html</loc><priority>0.80</priority></url>
+  <url><loc>https://freelancingvibes.online/seo-guides/affordable-seo-for-small-business.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/seo-guides/affordable-seo-services-for-lawyers.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/seo-guides/amazon-seo-listing-optimization-service.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/seo-guides/best-seo-companies-for-small-business.html</loc><priority>0.70</priority></url>
+  <url><loc>https://freelancingvibes.online/seo-guides/seo-services-pricing-guide.html</loc><priority>0.70</priority></url>
+</urlset>
